@@ -7,23 +7,29 @@ h1{
 .hadding{
     color:orange;
 }
-section{
+.flexble-continer{
     display: flex;
     margin-bottom: 100px;
 }
 .top{width: 50%;padding: 2%;}
 .top img{width: 80%;}
-.hire-button{
+.button{
     text-decoration: none;background-image: linear-gradient(orange,tomato);font-weight: 700;color: white;
     padding: 13px 40px;border-radius: 7px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);background-repeat: no-repeat;
-}
-.middle{width: 50%; padding: 5%;}
-.middle img{width: 110%;}
+} 
  
 .side-banner{background-image: url(images/dream-bg.png);background-repeat: no-repeat;background-position: right;padding-bottom: 200px;}
 
- 
- 
+.experience-item{box-shadow: 10px 10px 40px gray; width: 40%; margin-left: 5%;margin-right: 5%; padding: 5px;
+
+}
+ #border-color{
+     border-left: 7px solid; border-image: linear-gradient(blue,cyan);border-image-slice: 1;
+ }
+ #border{
+     border-left: 7px solid; border-color:#EF715E;
+ }
+.footer{background-image: url(images/exp-bg.png);background-repeat: no-repeat;background-position: left;padding-bottom: 60px;}
